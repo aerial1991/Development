@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
-
+#化学制度光谱仪脚本最终版，注意编译的时候必须在win7下编译，否则会报错
 def main():
     # 在这里编写你的程序
     # D:Results.csv
