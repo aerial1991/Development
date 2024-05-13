@@ -1,0 +1,73 @@
+/* 箭头函数的目的：更简短的函数写法并且不绑定this，箭头函数的语法比函数表达式更简洁
+箭头函数的使用场景：更适用于哪些本来需要匿名函数的地方 */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const fn = function(){
+            console.log(this);
+        }
+        //箭头函数
+        const fn2 = () => {
+            console.log(this);
+        }
+//只有一个形参的时候，可以省略小括号；
+const fn3 = name => {
+    console.log(name);
+}
+//如果函数体只有一条语句，可以省略大括号；
+const fn4 = name => console.log(name);
+//如果函数体只有一条语句，并且是return语句，可以省略大括号和return关键字；
+const fn5 = name => name;
+
+//箭头函数可以直接返回一个对象；
+const fn6 = (uname) => ({uname: uname});
+console.log(fn6('小明'));
+//---------------------------------------------------------------------------------------------------------
+//箭头函数的参数
+// 利用箭头函数来求和
+const sum = (...arr) => {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+    return sum;
+};
+const result = sum(1, 2, 3, 4, 5);
+console.log(result);
+
+
+//--------------------------------------------------------------------------------------------------------------
+// 箭头函数的this
+// 箭头函数的this指向的是函数所在的作用域，而不是函数体中的this；
+const obj = {
+    name: '小明',
+    fn: () => {
+        console.log(this.name);
+    }
+};
+obj.fn();
+const fn7 = () => {
+    console.log(this);   //window
+};
+
+// 对象方法的箭头函数this
+const obj2 = {
+    name: '小明',
+    fn: function () {
+        console.log(this.name); //小明
+    },
+    fn2: () => {
+        console.log(this.name); //window
+    }
+};
+obj2.fn();
+obj2.fn2();
+    </script>
+</body>
+</html>
