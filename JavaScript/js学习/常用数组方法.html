@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //重点查文档DDN
+
+        
+        /*forEach()方法用于调用数组的每个元素，并将元素传递给回调函数
+        语法：
+        被遍历的数组.forEach(function(当前数组元素,当前元素索引号){
+            函数体
+        })
+
+        1.只遍历不返回值
+        2.当前数组元素是必须要写的，索引号可选。
+        */
+        const array = [1,2,3,4,5]
+        array.forEach(function(item,index){
+            console.log(item,index);
+        })
+ //forEach()就是遍历，加强版的for循环，适合于遍历数组对象
+
+
+
+ //**************************************************************************************************
+ /* filter方法：用于过滤数组中的元素，返回一个新的数组，该数组中的元素符合条件
+    语法：
+    被过滤的数组.filter(function(当前数组元素,当前元素索引号){
+        return true/false
+    })
+    1.当前数组元素是必须要写的，索引号可选。
+    2.return true/false，如果返回true，则保留该元素，返回false，则不保留该元素
+    3.返回的新数组中，元素个数和被过滤的数组中，符合条件元素*/
+   const array1 =array.filter(function(item,index){
+       return item > 2;
+   })
+   console.log(array1);
+
+   /* map方法：用于遍历数组中的元素，返回一个新的数组，该数组中的元素是回调函数的返回值
+    语法：
+    被遍历的数组.map(function(当前数组元素,当前元素索引号){
+        return 当前数组元素*2
+    })
+    1.当前数组元素是必须要写的，索引号可选。
+    2.return 当前数组元素*2，返回的新数组中，元素个数和被遍历的数组中，元素个数一样*/
+
+
+    const array3 = array.map(function(item,index){
+        return item*2;
+    })
+    console.log(array3);
+    //**************************************************************************************************************
+/*reduce方法：返回累计处理的结果，经常用于求和等
+    语法：
+    arr.reduce(function(){},初始值)
+    arr.reduce(function(累计处理的结果，当前数组元素){},初始值)
+    */
+//    1.没有初始值
+    const total= array.reduce(function(prev,current){
+        return prev + current;
+    })
+    console.log(total);
+
+array.reduce((prev,current) => {})
+//没有初始值，就把数组的以一个元素当成初始值。
+//上一次值   当前值  返回值 （第一次循环）
+//   1         2       3
+//   3         3       6
+//  6          4       10
+//  10         5       15
+
+const arr=[
+    {name:'小明',salary:10000},
+    {name:'小红',salary:12000},
+    {name:'小刚',salary:20000}
+]
+//计算薪资总和
+const total1 = arr.reduce(function(prev,current){
+    return prev + current.salary;
+},0)
+
+//每个人涨薪30%，当月支出多少薪资
+const total2 = arr.reduce(function(prev,current){
+    return prev + current.salary*0.3;
+},0)
+console.log(total2);
+//*******************************************************************
+/*find方法
+*/
+const arr1 =[
+   {name:"小米"},
+   {name:"华为"},
+   {name:"苹果"},
+   {name:"魅族"},
+   {name:"oppo"},
+   {name:"vivo"},
+   {name:"联想"},
+   {name:"惠普"},
+   {name:"戴尔"},
+   {name:"华硕"},
+   {name:"惠普"},
+   {name:"惠普"},
+   {name:"惠普"},
+  {name:"惠普"},
+]
+const hp =arr1.find(function(item,index){
+    return item.name === "惠普";
+})
+console.log(hp);
+
+//**********************************************************************************
+/*
+every方法:返回布尔值，如果数组中的元素全部符合条件，则返回true，否则返回false
+
+*/
+console.log([10,12,12,3,10].every(item =>item>10))
+    </script>
+</body>
+</html>

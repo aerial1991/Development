@@ -1,3 +1,4 @@
+#该版本适用于相同试验方法的文件上传，不同方法会报错。不同方法的数据上传参照下个版本。
 import tkinter as tk
 from tkinter import messagebox
 #化学制度光谱仪脚本最终版，注意编译的时候必须在win7下编译，否则会报错
