@@ -1,0 +1,44 @@
+{
+  "id": "3185733",
+  "name": "移动web-活动方案",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1715038",
+      "name": "理财",
+      "font_class": "licai",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "2076358",
+      "name": "返回箭头",
+      "font_class": "fanhuijiantou",
+      "unicode": "e8b5",
+      "unicode_decimal": 59573
+    },
+    {
+      "icon_id": "6085783",
+      "name": "理财",
+      "font_class": "licai1",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "9549070",
+      "name": "理财",
+      "font_class": "licai2",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "15961580",
+      "name": "钱包",
+      "font_class": "qianbao",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "3188908",
+  "name": "家具商城",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5024",
+      "name": "沙发",
+      "font_class": "shafa",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "658000",
+      "name": "地址",
+      "font_class": "dizhi",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "856395",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "2822863",
+      "name": "凳子2",
+      "font_class": "dengzi",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "4175511",
+      "name": "下箭头",
+      "font_class": "xiajiantou",
+      "unicode": "eb6d",
+      "unicode_decimal": 60269
+    },
+    {
+      "icon_id": "4437608",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "5121525",
+      "name": "项目",
+      "font_class": "xiangmu",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "6282787",
+      "name": "意见反馈",
+      "font_class": "yijianfankui",
+      "unicode": "e6c0",
+      "unicode_decimal": 59072
+    },
+    {
+      "icon_id": "7275446",
+      "name": "VR",
+      "font_class": "VR",
+      "unicode": "e6ac",
+      "unicode_decimal": 59052
+    },
+    {
+      "icon_id": "7556180",
+      "name": "定制",
+      "font_class": "dingzhi",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "17839634",
+      "name": "设计师",
+      "font_class": "tubiaozhizuosvg-05",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}

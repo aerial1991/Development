@@ -1,0 +1,51 @@
+{
+  "id": "3188744",
+  "name": "精品推荐",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1032410",
+      "name": "星星",
+      "font_class": "xingxing",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "4539890",
+      "name": "星星",
+      "font_class": "xingxing1",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "4964659",
+      "name": "果汁",
+      "font_class": "guozhi",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "5072232",
+      "name": "牛排",
+      "font_class": "steak",
+      "unicode": "e66e",
+      "unicode_decimal": 58990
+    },
+    {
+      "icon_id": "5222600",
+      "name": "沙拉",
+      "font_class": "icon-test",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "24103851",
+      "name": "奶茶",
+      "font_class": "naicha",
+      "unicode": "faa5",
+      "unicode_decimal": 64165
+    }
+  ]
+}

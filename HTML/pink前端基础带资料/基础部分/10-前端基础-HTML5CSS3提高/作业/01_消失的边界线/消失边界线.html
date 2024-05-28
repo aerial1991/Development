@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        ul {
+            width: 300px;
+            list-style: none;
+            padding: 0;
+        }
+        
+        li {
+            float: left;
+            width: 99px;
+            /* 下面两个属性 文字垂直方向和水平方向居中 */
+            line-height: 30px;
+            text-align: center;
+            /* 设置右边框 */
+            border-right: 1px solid #999;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        
+        .ul-container {
+            /*下面两个属性 让块级盒子水平居中 */
+            width: 300px;
+            margin: 50px auto;
+            background: #eee;
+            /* 里面孩子浮动了，清除浮动 */
+            overflow: hidden;
+        }
+        /* 让3的倍数的li 去掉有边框 */
+        
+        ul>li:nth-child(3n) {
+            border-right: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ul-container">
+        <ul>
+            <li>测试</li>
+            <li>消失</li>
+            <li>边界线</li>
+            <li>右侧</li>
+            <li>边界线</li>
+            <li>消失</li>
+            <li>测试</li>
+        </ul>
+    </div>
+</body>
+
+</html>

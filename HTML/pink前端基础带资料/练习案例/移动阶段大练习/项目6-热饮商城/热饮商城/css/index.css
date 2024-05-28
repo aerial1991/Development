@@ -1,0 +1,133 @@
+/* 去除常见标签默认的 margin 和 padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 设置网页统一的字体大小、行高、字体系列相关属性 */
+body {
+  font: 15px/1.5 "PingFangSC-Regul", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+}
+/* 去除列表默认样式 */
+ul,
+ol {
+  list-style: none;
+}
+/* 去除默认的倾斜效果 */
+em,
+i {
+  font-style: normal;
+}
+/* 去除a标签默认下划线，并设置默认文字颜色 */
+a {
+  text-decoration: none;
+}
+/* 设置img的垂直对齐方式为居中对齐，去除img默认下间隙 */
+img {
+  vertical-align: middle;
+  width: 100%;
+}
+/* 去除input默认样式 */
+input {
+  border: none;
+  outline: none;
+  color: #333;
+}
+/* 双伪元素清除法 */
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+body {
+  background-color: #f4f4f4;
+}
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  padding: 0 4.26666667vw;
+  width: 100%;
+  height: 11.73333333vw;
+  background-image: linear-gradient(90deg, #ff7350 0%, #fdb696 100%), linear-gradient(#ffffff, #ffffff);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+header .title {
+  display: flex;
+  align-items: center;
+}
+header .title h2 {
+  font-size: 4.26666667vw;
+  font-weight: 400;
+}
+header .title .icon-sanjiaodown {
+  font-size: 3.2vw;
+}
+header .icon-sousuo {
+  font-size: 4.53333333vw;
+  color: #fff;
+}
+header .icon-zhankai {
+  font-size: 4.26666667vw;
+}
+section {
+  padding: 11.73333333vw 0 15.46666667vw;
+}
+section .main {
+  padding: 0 2.93333333vw;
+}
+section .main .nav {
+  height: 26.13333333vw;
+  border-bottom: 1px solid #e5e8ea;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+section .main .nav .iconfont {
+  font-size: 7.2vw;
+  color: #ff7350;
+}
+section .main .nav p {
+  font-size: 3.2vw;
+  color: #3a3a3c;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 15.46666667vw;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  border-top: 0.26666667vw solid #9e9e9e;
+}
+footer a {
+  color: #9e9e9e;
+  font-size: 3.2vw;
+}
+footer a .iconfont {
+  font-size: 5.06666667vw;
+}
+footer a.active {
+  color: #ff7350;
+}
+footer .add {
+  width: 11.2vw;
+  height: 11.2vw;
+  background-image: linear-gradient(90deg, #ff7350 0%, #fdb696 100%), linear-gradient(#6654ff, #6654ff);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 11.2vw;
+  color: #fff;
+}
