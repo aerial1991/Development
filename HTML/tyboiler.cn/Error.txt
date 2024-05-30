@@ -1,0 +1,8 @@
+﻿文件下载网址  =>  文件保存路径
+http://tyboiler.cn/skin/images/ajaxloader.gif  =>  D:\单页扒站小工具\tyboiler.cn\images\ajaxloader.gif
+http://tyboiler.cn/static/images/yslbg3.gif  =>  D:\单页扒站小工具\tyboiler.cn\images\yslbg3.gif
+http://tyboiler.cn/static/images/yslbg1.gif  =>  D:\单页扒站小工具\tyboiler.cn\images\yslbg1.gif
+http://tyboiler.cn/skin/images/t-service.jpg  =>  D:\单页扒站小工具\tyboiler.cn\images\t-service.jpg
+http://tyboiler.cn/skin/images/jhuwabutvs.gif  =>  D:\单页扒站小工具\tyboiler.cn\images\jhuwabutvs.gif
+http://tyboiler.cn/static/images/yslbg2.gif  =>  D:\单页扒站小工具\tyboiler.cn\images\yslbg2.gif
+http://tyboiler.cn/skin/images/iconbg.gif  =>  D:\单页扒站小工具\tyboiler.cn\images\iconbg.gif
