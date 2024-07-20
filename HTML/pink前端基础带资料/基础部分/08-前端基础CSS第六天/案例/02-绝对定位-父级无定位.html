@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>绝对定位-无父亲或者父亲无定位</title>
+    <!-- 如果没有祖先元素或者祖先元素没有定位，则以浏览器为准定位
+         如果祖先元素有定位，则以最近一级有定位祖先元素为参考点移动位置
+         -->
     <style>
         .father {
             width: 500px;

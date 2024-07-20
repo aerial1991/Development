@@ -43,7 +43,7 @@ print("---------------------------")
 
 felast_df = df_filled[df_filled[6] == 'FELAST  '].iloc[:,0:83]
 fecrni_df = df_filled[df_filled[6] == 'FECRNI  '].iloc[:,0:86]
-fecrst_df = df_filled[df_filled[6] == 'FECRst  '].iloc[:,0:80]
+fecrst_df = df_filled[df_filled[6] == 'FECRST  '].iloc[:,0:80]
 print(df_filled[14])
 print(felast_df)
 print("******************")
