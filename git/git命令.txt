@@ -1,0 +1,4 @@
+如果git推送超过100M的文件，则执行下面命令回复远程推送
+
+
+git filter-branch -f --index-filter 'git rm --cached --ignore-unmatch  文件名'
